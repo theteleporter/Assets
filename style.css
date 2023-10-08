@@ -1,9 +1,67 @@
 body {
     background: #000;
     color: #fff;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .link {
     color: #fff;
-    padding: 7px 8px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 250px;
+}
+
+.link:hover {
+    color: red;
+}
+
+.title {
+    font-weight: 600;
+    text-align: center;
+    position: fixed;
+    background: #000000A7;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    height: 25px;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 1.3em;
+}
+
+.paragraph {
+    text-align: start;
+    padding: 9px 30px;
+    border: 0.5px solid #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.watch-link {
+    margin-left: 30px;
+    font-weight: 600;
+    background: red;
+    padding: 7px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.watch-link:hover {
+    color: red;
+    text-decoration: none;
+    background: #202020;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a::after{
+    text-decoration: none;
 }
